@@ -47,6 +47,7 @@ h1 {
 #call-to-action a:hover {
   background-color: rgba(120, 244, 130, 0.75);
   border: 5px solid rgba(254, 254, 254, 0.8);
+  color: #1d4944;
 }
 #about-us {
   margin: auto;

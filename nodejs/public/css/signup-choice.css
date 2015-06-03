@@ -2,15 +2,15 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,600);
 body {
-  background-color: #1d4944;
+  background-color: #E6E6E6;
   font-family: 'Raleway', sans-serif;
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
-  color: #878D93;
+  color: #EFEFEF;
   text-align: center;
-  background-color: #EFEFEF;
-  font-size: 300%;
+  background-color: #1d4944;
+  font-size: 200%;
   /*
   text-shadow: 0px 1px 1px rgba(0, 0, 0, .5);
   */
@@ -50,6 +50,25 @@ h1 {
   background-color: rgba(120, 244, 130, 0.75);
   border: 5px solid rgba(254, 254, 254, 0.8);
   color: #1d4944;
+}
+#about-us {
+  margin: auto;
+  font-size: 130%;
+  text-align: center;
+  background-color: #EFEFEF;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  line-height: 125%;
+  box-shadow: rgba(0, 0, 0, 0.258824) 0px 2px 5px 0px;
+}
+#about-us a {
+  text-decoration: none;
+  color: #878D93;
 }
 
 /*
