@@ -4,14 +4,18 @@
 body {
   background-color: #E6E6E6;
   font-family: 'Raleway', sans-serif;
+  /*
+  width: 320px;
+  height: 480px;
+  border: 2px solid black;
+  */
 }
 h1 {
-  font-family: 'Montserrat', sans-serif;
   color: #EFEFEF;
   text-align: center;
   background-color: #1d4944;
-  font-size: 200%;
-  /*
+  font-size: 180%;
+    /*
   text-shadow: 0px 1px 1px rgba(0, 0, 0, .5);
   */
   letter-spacing: 1px;
@@ -21,25 +25,15 @@ h1 {
   border-bottom-right-radius: 50px;
   box-shadow: rgba(0, 0, 0, 0.258824) 0px 2px 5px 0px;
 }
-#call-to-action p {
-  font-size: 200%;
-  text-align: left;
-  font-weight: 600;
-  color: #FEFEFE;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, .5);
-  padding: 4%;
-  width: 75%;
-  margin: auto;
-}
 #call-to-action a {
   text-align: center;
   background-color: #56BC8A;
   color: white;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
   display: block;
   width: 40%;
   font-size: 200%;
+  font-weight: 400;
   border-radius: 52px;
   border: 5px solid rgba(0, 0, 0, 0);
   margin: auto;

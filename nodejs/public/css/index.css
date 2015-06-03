@@ -4,9 +4,13 @@
 body {
   background-color: #1d4944;
   font-family: 'Raleway', sans-serif;
+  /*
+  width: 320px;
+  height: 480px;
+  border: 2px solid black;
+  */
 }
 h1 {
-  font-family: 'Montserrat', sans-serif;
   color: #878D93;
   text-align: center;
   background-color: #EFEFEF;
@@ -34,7 +38,6 @@ h1 {
   background-color: #56BC8A;
   color: white;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
   display: block;
   width: 40%;
   font-size: 200%;
