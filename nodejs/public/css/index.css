@@ -46,6 +46,7 @@ h1 {
   margin: auto;
   padding: 2%;
   line-height: 125%;
+  box-shadow: rgba(0, 0, 0, 0.258824) 0px 2px 5px 0px;
 }
 #call-to-action a:hover {
   background-color: rgba(120, 244, 130, 0.75);
