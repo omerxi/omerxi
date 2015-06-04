@@ -28,11 +28,11 @@ form {
   margin-top: 2%;
   margin-bottom: 2%;
 }
-#call-to-action  {
+#call-to-action {
   padding: 2%;
-  border: 2px solid rgba(0, 0, 0, 0);;
+  border: 2px solid rgba(0, 0, 0, 0);
+  ;
 }
-
 #call-to-action p {
   font-size: 140%;
   font-weight: 400;
@@ -44,7 +44,7 @@ form {
   font-weight: 400;
   line-height: 125%;
 }
-#call-to-action input {
+.input {
   border: 3px solid #56BC8A;
   line-height: 125%;
   border-radius: 0.5rem;
@@ -55,7 +55,7 @@ form {
   margin-right: 3px;
   width: 280px;
 }
-#call-to-action a {
+.button {
   text-align: center;
   background-color: #56BC8A;
   color: white;
@@ -65,9 +65,8 @@ form {
   border-radius: 26px;
   padding: 10px;
   border: 5px solid rgba(0, 0, 0, 0);
-  width: 50%;
 }
-#call-to-action a:hover {
+.button:hover {
   background-color: rgba(120, 244, 130, 0.75);
   border: 5px solid rgba(254, 254, 254, 0.8);
   color: #1d4944;
