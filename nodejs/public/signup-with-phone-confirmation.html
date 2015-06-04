@@ -1,17 +1,24 @@
 <html>
 
 <head>
-	<title>Confirmation de votre n° de mobile</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="./css/reset.css" />
+	<link rel="stylesheet" href="./css/signup-with-phone-confirmation.css" />
+	<title>Confirmation de votre n° de mobile</title>
 </head>
 
 <body>
-	<p>Nous vérifierons le numéro suivant : </p>
-	<span id="phone">$phone</span>
-	<p>Est-ce bien votre numéro ou souhaitez-vous le modifier ?</p>
-	<a href="signup-with-phone.html">Modifier</a>
-	<a href="signup-with-phone-verification-code.html">Ok</a>
-	<script src="./js/signup-with-phone-confirmation.js" charset="utf-8"></script>
+	<h1>Confirmation de votre n° de mobile</h1>
+	<section id="call-to-action">
+		<div class="echo">
+			<p>Nous vérifierons le numéro suivant : </p>
+			<span id="phone">$phone</span>
+			<p>Est-ce bien votre numéro ?</p>
+		</div>
+		<a href="signup-with-phone.html" class="button cancel">Non</a>
+		<a href="signup-with-phone-verification-code.html" class="button">Oui</a>
+		<script src="./js/signup-with-phone-confirmation.js" charset="utf-8"></script>
+	</section>
 </body>
 
 </html>
