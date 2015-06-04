@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="./css/reset.css" />
 	<link rel="stylesheet" href="./css/signup-with-phone.css" />
 	<title>vérifier votre numéro</title>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -12,11 +13,14 @@
 	<section id="call-to-action">
 		<p>Nous vous enverrons un sms pour vérifier votre numéro de mobile</p>
 		<br />
-		<p>Veuillez saisir votre numéro de mobile</p>
+		<p>Veuillez saisir votre numéro de mobile : </p>
 		<form action="./signup-with-phone-confirmation.html" method="get">
 			<input type="tel" class="input" placeholder="06 XX XX XX XX" name="phone" value="" />
 			<input type="submit" class="button" value="Ok">
 		</form>
+		<!--
+		<div class="g-recaptcha" data-sitekey="6Ldg4gcTAAAAAJk-CNL1GYkMwG806YumAWzLKiL3"></div>
+		-->
 		<p class="privacy">Nous ferons attention à votre numéro de mobile.</p>
 		<p class="privacy">Vous détestez les spams, nous aussi.</p>
 	</section>

@@ -83,3 +83,11 @@ TODO need fix in Firefox
   top: 42%;
   transform: translateY(-50%);
 }
+.g-recaptcha {
+  margin: 0 auto;
+  display: block;
+}
+.g-recaptcha div {
+  margin: 0 auto;
+  display: block;
+}

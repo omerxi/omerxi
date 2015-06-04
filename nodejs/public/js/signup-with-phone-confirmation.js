@@ -6,7 +6,10 @@ var GET = location.search.split(/[?&]/).slice(1).map(function(paramPair) {
 }, {});
 
 
-console.log(GET.phone);
+var phone = GET.phone.replace(/\+/g, " ");
 
+document.getElementById("phone").innerHTML = phone;
 
-document.getElementById("phone").innerHTML = GET.phone;
+document.getElementById("oui").addEventListener("click", function() {
+  promise.get("http://78.193.235.5/sms/" + phone + "/test from ui");
+}, false);
