@@ -61,7 +61,6 @@ h2 {
 }
 
 
-
 #call-to-action a {
   text-align: center;
   background-color: #56BC8A;
@@ -112,10 +111,13 @@ TODO need fix in Firefox
 */
 
 #call-to-action {
+  padding-top: 2%;
+  /*
   position: relative;
   top: 42%;
   transform: translateY(-50%);
   border: 1px solid rgba(0, 0, 0, 0);
+  */
 }
 #logo {
   margin: 0px auto;
