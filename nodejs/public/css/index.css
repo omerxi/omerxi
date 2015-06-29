@@ -15,33 +15,62 @@ h1 {
   text-align: center;
   background-color: #EFEFEF;
   font-size: 300%;
+  background-image: url("/logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
   /*
   text-shadow: 0px 1px 1px rgba(0, 0, 0, .5);
   */
   letter-spacing: 1px;
   padding: 5px;
   padding-bottom: 10px;
+  /*
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+  */
   box-shadow: rgba(0, 0, 0, 0.258824) 0px 2px 5px 0px;
 }
+
+h2 {
+  color: #FEFEFE;
+  text-align: center;
+  font-size: 500%;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, .5);
+  letter-spacing: 1px;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
 #call-to-action p {
   font-size: 300%;
   text-align: center;
   font-weight: 600;
   color: #FEFEFE;
   text-shadow: 0 1px 10px rgba(0, 0, 0, .5);
+  padding-top: 1%;
+  padding-bottom: 4%;
+  /*
   padding: 4%;
+  */
 }
+
+#call-to-action p.description {
+  font-size: 250%;
+  font-weight: normal;
+}
+
+
+
 #call-to-action a {
   text-align: center;
   background-color: #56BC8A;
   color: white;
   text-decoration: none;
   display: block;
-  width: 40%;
-  font-size: 200%;
-  border-radius: 52px;
+  width: 25%;
+  font-size: 300%;
+  border-radius: 26px;
   border: 5px solid rgba(0, 0, 0, 0);
   margin: auto;
   padding: 2%;
@@ -53,6 +82,12 @@ h1 {
   border: 5px solid rgba(254, 254, 254, 0.8);
   color: #1d4944;
 }
+
+#call-to-action a span {
+  font-weight: bold;
+}
+
+
 #about-us {
   margin: auto;
   font-size: 130%;
@@ -81,4 +116,10 @@ TODO need fix in Firefox
   top: 42%;
   transform: translateY(-50%);
   border: 1px solid rgba(0, 0, 0, 0);
+}
+#logo {
+  margin: 0px auto;
+  display: block;
+  width: 175;
+  margin-bottom: 1%;
 }
