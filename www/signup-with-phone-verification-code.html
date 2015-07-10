@@ -1,15 +1,27 @@
 <html>
 
 <head>
-	<title>Vérifiction de votre n° de mobile</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="./css/reset.css" />
+	<link rel="stylesheet" href="./css/signup-with-phone-verification-code.css" />
+	<title>Vérifiez vos sms</title>
 </head>
 
 <body>
-	<p>omerxi vous a envoyé un code d'activation par sms</p>
-	<p>Veuillez saisir votre code d'activation</p>
-	<input type="text" placeholder="xxx-xxx"></input>
-	<a href="index.html">Ok</a>
+	<h1>Vérifiez vos sms</h1>
+	<section id="call-to-action">
+		<div class="echo">
+		  <form action="./profile.html" method="get">
+			<p>Vérifiez vos SMS !</p>
+			<p>Nous vous avons envoyé SMS avec un mot de passe.</p>
+			<p>Cliquez sur le lien dans le SMS ou saisissez ici votre mot de passe:</p>
+			<input type="password" placeholder="xxx-xxx" class="input"
+				name="password"></input>
+			<input type="submit" class="button" value="Ok">
+		  </form>
+		</div>
+		<script src="./js/signup-with-phone-confirmation.js" charset="utf-8"></script>
+	</section>
 </body>
 
 </html>

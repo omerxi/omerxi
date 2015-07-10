@@ -1,1 +1,5 @@
 *.directory
+# Vim
+.*.swp
+.*.swo
+
